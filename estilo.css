@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1200px;
+    text-align: center;
+    background-image: url('./img/estadio.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Righteous', sans-serif;
+    margin-inline: auto;
+}
+
+h1{
+    text-align: center;
+    color: rgb(245, 245, 245);
+    padding-block: 3rem;
+
+}
+
+
+.peca{
+    width: 120px;
+    height: 120px;
+    background-image: url('./img/grama2.png');
+    background-position: center;
+    border: 1px solid gray;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+.o{
+     position: relative;
+}
+
+.o::after{
+    position: absolute;
+    content: "\1F3C8";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.x{
+    position: relative;
+}
+
+.x::after{
+   position: absolute;
+   content: "\26BD";
+   font-size: 50px;
+   line-height: 100px;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+}
+
+
+.winner{
+    font-size: 30px;
+    background-color: #FFF;
+    display: block;
+    width: 250px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    margin-top:2rem;
+}
+
+.btn{
+    font-family: 'Righteous', sans-serif;
+    border: none;
+    font-size: 20px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-color: rgb(125, 240, 11);
+    color:rgb(201, 28, 28);
+    width: 10%;
+    margin-top: 20px;
+    margin-top: 2rem;
+
+}
+
+.btn:hover{
+    background-color: rgb(87, 114, 59);
+    color: white;
+    cursor: pointer;
+
+}
+
+
+/*1F6E1*/
